@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+html{
+  background-color: lightblue;
+}
+body{
+  width: 800px;
+  margin: 0 auto;
+  background-color: silver;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+label{
+  font-size: 1.4rem;
+  padding: 10px 0;
+  font-weight: bold;
+}
+input{
+  height: 25px;
+  font-size: 1.1rem;
+}
+#email{
+  font-size: 1.2rem;
+}
+#motto{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+button{
+  width: 30%;
+  height: 40px;
+  margin: 0 auto;
+}
+.form-container{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 50px 0;
+}
+.member{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h2{
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  text-align: center;
 }

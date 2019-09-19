@@ -1,0 +1,56 @@
+html{
+  background-color: lightblue;
+}
+body{
+  width: 800px;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-size: 1.4rem;
+  padding: 10px 0;
+  font-weight: bold;
+}
+input{
+  height: 25px;
+  font-size: 1.1rem;
+}
+#email{
+  font-size: 1.2rem;
+}
+#motto{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+button{
+  width: 30%;
+  height: 40px;
+  margin: 0 auto;
+}
+.form-container{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 50px 0;
+}
+.member{
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2{
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
